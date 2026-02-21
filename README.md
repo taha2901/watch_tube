@@ -54,7 +54,7 @@ A clean and minimal YouTube player app built with Flutter.
 ```bash
 # 1. Clone the repo
 git clone https://github.com/taha2901/watch_tube.git
-cd watch_tube
+cd watch_it
 
 # 2. Install dependencies
 flutter pub get
@@ -118,13 +118,33 @@ lib/
 ├── main.dart
 ├── models/
 │   └── vedio_items_model.dart   # VideoItem model + kVideos list
-├── home_screen.dart             # Home screen with categories & search
-├── player_screen.dart           # YouTube player + playlist
-├── vedio_list_title.dart        # Video list tile widget
-├── search_sheet.dart            # Search bottom sheet
-└── control_btn.dart             # Mute & speed control buttons
+├── screens/
+│   ├── home_screen.dart         # Home screen with categories & search
+│   └── player_screen.dart       # YouTube player + playlist
+└── widgets/
+    ├── control_btn.dart         # Mute & speed control buttons
+    ├── search_sheet.dart        # Search bottom sheet
+    └── vedio_list_title.dart    # Video list tile widget
 ```
 
+---
 
-<p align="center">Made by Taha Hamada using Flutter</p>
+## ⚙️ Android Setup
 
+In `android/app/src/main/AndroidManifest.xml`, make sure you have:
+
+```xml
+<application
+    android:hardwareAccelerated="true"
+    android:usesCleartextTraffic="true"
+    ...>
+
+    <!-- Disable Impeller to fix WebView rendering issues -->
+    <meta-data
+        android:name="io.flutter.embedding.android.EnableImpeller"
+        android:value="false" />
+```
+
+---
+
+<p align="center">Made with ❤️ by Taha Hamada using Flutter</p>
