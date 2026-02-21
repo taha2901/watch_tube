@@ -1,5 +1,4 @@
 # 🎬 WatchTube
-
 A clean and minimal YouTube player app built with Flutter.
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)
@@ -24,6 +23,23 @@ A clean and minimal YouTube player app built with Flutter.
 ## 📸 Screenshots
 
 ![Watch Tube](assets/watch_tube.png)
+
+---
+
+## 📱 Download APK
+
+> Try the app directly without building from source
+
+[![Download APK](https://img.shields.io/badge/Download%20APK-Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/11goTwnRtpcin1eK_kGi75b9JnBwldOXB/view?usp=drivesdk)
+
+---
+
+## 🎬 Demo Video
+
+> Watch the app in action
+
+[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-Google%20Drive-red?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1ctSmD6_bjr5lTCjCX8jwQPo6BzGoTg9t/view?usp=drivesdk)
+
 ---
 
 ## 🚀 Getting Started
@@ -129,7 +145,4 @@ In `android/app/src/main/AndroidManifest.xml`, make sure you have:
 
 ---
 
-
-<p align="center">Made with Taha Hamada using Flutter</p>
-
-
+<p align="center">Made with ❤️ by Taha Hamada using Flutter</p>
