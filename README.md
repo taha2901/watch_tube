@@ -23,8 +23,7 @@ A clean and minimal YouTube player app built with Flutter.
 
 ## 📸 Screenshots
 
-> _Add your screenshots here_
-
+![Watch Tube](assets/watch_tube.png)
 ---
 
 ## 🚀 Getting Started
@@ -132,4 +131,5 @@ In `android/app/src/main/AndroidManifest.xml`, make sure you have:
 
 
 <p align="center">Made with Taha Hamada using Flutter</p>
+
 
