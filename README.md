@@ -38,7 +38,7 @@ A clean and minimal YouTube player app built with Flutter.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/watch_it.git
+git clone https://github.com/taha2901/watch_tube.git
 cd watch_it
 
 # 2. Install dependencies
@@ -130,10 +130,6 @@ In `android/app/src/main/AndroidManifest.xml`, make sure you have:
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License.
+<p align="center">Made with Taha Hamada using Flutter</p>
 
----
-
-<p align="center">Made with ❤️ using Flutter</p>
